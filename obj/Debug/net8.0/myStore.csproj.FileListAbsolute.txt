@@ -36,3 +36,4 @@ C:\Users\torbj\source\repos\myStore\obj\Debug\net8.0\refint\myStore.dll
 C:\Users\torbj\source\repos\myStore\obj\Debug\net8.0\myStore.pdb
 C:\Users\torbj\source\repos\myStore\obj\Debug\net8.0\myStore.genruntimeconfig.cache
 C:\Users\torbj\source\repos\myStore\obj\Debug\net8.0\ref\myStore.dll
+C:\Users\torbj\source\repos\myStore\obj\Debug\net8.0\myStore.sourcelink.json
