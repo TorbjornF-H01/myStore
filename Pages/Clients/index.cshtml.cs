@@ -12,7 +12,7 @@ namespace myStore.Pages.Clients
 
             try
             {
-                string connectionstring = "Data Source=FROBIGBRAIN\\SQLEXPRESS;Initial Catalog=MeeStore;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
+                string connectionstring = "Data Source=FROBIGBRAIN\\SQLEXPRESS;Initial Catalog=MeeStore;Integrated Security=True;Encrypt=True; TrustServerCertificate=True;";
 
                 using (SqlConnection connection = new SqlConnection(connectionstring))
                 {
