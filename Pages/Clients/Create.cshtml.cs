@@ -33,7 +33,7 @@ namespace myStore.Pages.Clients
 
             try
             {
-                String connectionString = "Data Source=.\\SQLEXPRESS;Initial Catalog=mystore;Integrated Security=True;Encrypt=True; Trust Server Certificate=True;";
+                String connectionString = "Data Source=.\\SQLEXPRESS;Initial Catalog=mystore;Integrated Security=True;Encrypt=True; TrustServerCertificate=True;";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();

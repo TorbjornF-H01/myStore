@@ -12,17 +12,14 @@ namespace myStore.Pages.Clients
 
             try
             {
-                string connectionstring = "Data Source=FROBIGBRAIN\\SQLEXPRESS;Initial Catalog=MeeStore;Integrated Security=True;Encrypt=True; TrustServerCertificate=True;";
+                string connectionstring = "Data Source=FROBIGBRAIN\\SQLEXPRESS;Initial Catalog=MeeStore;Integrated Security=True;Encrypt=True; TrustServerCertificate=True";
 
                 using (SqlConnection connection = new SqlConnection(connectionstring))
                 {
                     connection.Open();
                     string sql = "SELECT * FROM clients";
-                    using (SqlCommand command = new SqlCommand(sql, connection)) ;
-
-
-
                     using (SqlCommand command = new SqlCommand(sql, connection))
+
                     {
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
